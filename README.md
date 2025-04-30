@@ -1,5 +1,5 @@
 # Custom Smash or Pass
-A easily customizable smash or pass page with html, css and javascript with downloadable results
+A easily customizable smash or pass page with html, css and javascript with downloadable results in CSV
 
 ## Editing Language / Texts
 The page comes in spanish by default, but you can modify the text in the HTML/JavaScript files
