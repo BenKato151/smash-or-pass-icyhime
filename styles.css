@@ -1,0 +1,196 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #202325;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  width: 90%;
+  margin: 20px auto;
+  background: #181a1b;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 12 0 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjeta e imagen */
+.card {
+  margin: 30px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#character-image {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #202325;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#character-image[src*="https://freesvg.org/storage/img/thumb/errname1.png"] {
+  border: 2px dashed #202325;
+  background-color: #181a1b;
+}
+
+/* Textos */
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#character-name {
+  color: white;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+/* Botones */
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  margin: 0 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#smash-btn {
+  background-color: #3d8c40;
+}
+
+#pass-btn {
+  background-color: #a91409;
+}
+
+#download-btn {
+  background-color: #5aa71c;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  margin-top: 0px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Resultados */
+#result {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  min-height: 30px;
+}
+
+.result-label {
+  font-size: 14px;
+  color: #a8a095;
+  display: none;
+}
+
+.result-label.visible {
+  display: block;
+}
+
+#result-text {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Drag & Drop */
+#drag-container {
+  position: relative;
+  cursor: grab;
+  user-select: none;
+}
+
+#drag-container.dragging {
+  cursor: grabbing;
+  transition: transform 0.1s;
+}
+
+/* Loader */
+.loader {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #2196F3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+  display: none;
+}
+
+/* Animaciones */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Utilidades */
+.hidden {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 1000;
+  border-top-right-radius: 20px;
+}
+
+a {
+  color: #ffe100;
+  text-decoration: none;
+}

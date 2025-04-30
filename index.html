@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smash or Pass</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loader" class="loader"></div>
+        <div class="card">
+
+            <!-- Placeholder for the character image -->
+            <div id="drag-container">
+                <img 
+                  id="character-image" 
+                  src="" 
+                  alt="Personaje" 
+                  draggable="false"
+                  onerror="this.src='https://freesvg.org/storage/img/thumb/errname1.png'; this.onerror=null;">
+                <h2 id="character-name">Cargando...</h2>
+            </div>
+            <!-- Placeholder for the character image -->
+
+        </div>
+
+        <!-- Buttons for Smash or Pass -->
+        <div class="buttons">
+            <button id="pass-btn">Pass 👎</button>
+            <button id="smash-btn">Smash 👍</button>
+        </div>
+        <!-- Buttons for Smash or Pass -->
+
+        <!-- History and result display -->
+        <p id="result">
+            <span class="result-label">Elección anterior:</span>
+            <span id="result-text"></span>
+        </p>
+        <!-- History and result display -->
+
+        <!-- Download button -->
+        <button id="download-btn" style="display: none;">⬇️ Descargar historial como CSV ⬇️</button>
+        <!-- Download button -->
+    </div>
+    <script src="script.js"></script>
+
+    <div class="footer">
+        <a href="https://github.com/Framerr/custom-smash-or-pass">Template</a> created by <a href="https://framerr.com" target="_blank">Framerr</a>&nbsp;
+    </div>
+</body>
+</html>
