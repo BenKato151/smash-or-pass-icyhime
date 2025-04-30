@@ -10,7 +10,7 @@ You can use my template using one of this metods available:
 ⬇️ Use the following guide for editing the template ⬇️
 
 ## Editing Language / Texts
-The page comes in spanish by default, but you can modify the text in the HTML/JavaScript files
+The page is in Spanish by default, but you can modify the text in the HTML/JavaScript files
 
 Look for the texts showed in the images below when editing the files and change it to whatever you want
 
