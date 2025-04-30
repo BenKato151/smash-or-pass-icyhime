@@ -12,7 +12,9 @@ You can use my template using one of this metods available:
 - Download my repository as a zip file
 - [Download the Release](https://github.com/Framerr/smash-or-pass-template/releases/latest)
 
-⬇️ And then, use the following guide for editing the template ⬇️
+Then you can host your page with github pages or other hosting methods (Or run it locally on your machine)
+
+⬇️ Use the following guide for editing the template ⬇️
 
 ### HTML Text: (Line 28 in the "index.html" file)
 ![image](https://github.com/user-attachments/assets/acb63ec4-4385-48d2-be32-df115f4ef0e6)
