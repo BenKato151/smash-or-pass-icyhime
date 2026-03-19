@@ -40,6 +40,7 @@ body {
   display: block;
   border: 1px solid #202325;
   image-rendering: -webkit-optimize-contrast;
+  transition: opacity 0.12s ease;
 }
 
 #character-image[src*="https://freesvg.org/storage/img/thumb/errname1.png"] {
@@ -132,6 +133,66 @@ button:hover {
 #drag-container.dragging {
   cursor: grabbing;
   transition: transform 0.1s;
+}
+
+#image-counter {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 6px 0 2px;
+}
+
+#dots-container {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dot-active {
+  width: 10px;
+  height: 10px;
+  background: white;
+}
+
+#prev-img-btn,
+#next-img-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  font-size: 22px;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+#prev-img-btn:hover,
+#next-img-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: none;
+}
+
+.nav-disabled {
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 /* Loader */

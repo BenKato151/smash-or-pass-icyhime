@@ -1,13 +1,11 @@
 // Lista de personajes / Character List
 const characters = [
-  { name: "Lappland", image: "https://www.animecharactersdatabase.com/images%20of/Lappland/from/Arknights/uploads/chars/39134-1221671467.png" },
-  { name: "Waai Fu", image: "https://www.animecharactersdatabase.com/images%20of/Waai%20Fu/from/Arknights/uploads/chars/68195-1075379700.png" },
-  { name: "Vaporeon", image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" },
-  // Añade más personajes aquí... / Add more characters here...
+
 ];
 
 let availableCharacters = [...characters];
 let currentCharacter = null;
+let currentImageIndex = 0;
 
 // Elementos del DOM / DOM Elements
 const characterImage = document.getElementById('character-image');
@@ -19,7 +17,56 @@ const card = document.querySelector('.card');
 const buttons = document.querySelector('.buttons');
 const dragContainer = document.getElementById('drag-container');
 
-// Carga del personaje actual / Load of the current character
+const imageCounter = document.createElement('div');
+imageCounter.id = 'image-counter';
+
+const prevImgBtn = document.createElement('button');
+prevImgBtn.id = 'prev-img-btn';
+prevImgBtn.textContent = '‹';
+
+const dotsContainer = document.createElement('div');
+dotsContainer.id = 'dots-container';
+
+const nextImgBtn = document.createElement('button');
+nextImgBtn.id = 'next-img-btn';
+nextImgBtn.textContent = '›';
+
+imageCounter.appendChild(prevImgBtn);
+imageCounter.appendChild(dotsContainer);
+imageCounter.appendChild(nextImgBtn);
+dragContainer.parentNode.insertBefore(imageCounter, dragContainer.nextSibling);
+
+function renderDots(total, active) {
+  dotsContainer.innerHTML = '';
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement('span');
+    dot.className = 'dot' + (i === active ? ' dot-active' : '');
+    dot.addEventListener('click', () => showImage(i));
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function showImage(index) {
+  if (!currentCharacter) return;
+  const imgs = currentCharacter.images;
+  currentImageIndex = Math.max(0, Math.min(index, imgs.length - 1));
+
+  characterImage.style.opacity = '0';
+  setTimeout(() => {
+    characterImage.src = imgs[currentImageIndex] || 'https://freesvg.org/storage/img/thumb/errname1.png';
+    characterImage.style.opacity = '1';
+  }, 120);
+
+  if (imgs.length > 1) {
+    imageCounter.style.display = 'flex';
+    renderDots(imgs.length, currentImageIndex);
+    prevImgBtn.classList.toggle('nav-disabled', currentImageIndex === 0);
+    nextImgBtn.classList.toggle('nav-disabled', currentImageIndex === imgs.length - 1);
+  } else {
+    imageCounter.style.display = 'none';
+  }
+}
+
 function loadCharacter() {
   if (availableCharacters.length === 0) {
     showEndMessage();
@@ -29,23 +76,36 @@ function loadCharacter() {
   const randomIndex = Math.floor(Math.random() * availableCharacters.length);
   currentCharacter = availableCharacters[randomIndex];
   availableCharacters.splice(randomIndex, 1);
+  currentImageIndex = 0;
 
-  characterImage.src = currentCharacter.image || 'https://freesvg.org/storage/img/thumb/errname1.png';
   characterName.textContent = currentCharacter.name;
+  showImage(0);
 }
+
+prevImgBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (currentImageIndex > 0) showImage(currentImageIndex - 1);
+});
+
+nextImgBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (currentCharacter && currentImageIndex < currentCharacter.images.length - 1)
+    showImage(currentImageIndex + 1);
+});
 
 // Función para mostrar mensaje final (Al acabarse la lista de personajes) / Function to show end message (When the character list runs out)
 function showEndMessage() {
   card.style.display = 'none';
   buttons.style.display = 'none';
+  imageCounter.style.display = 'none';
 
   // Aquí puedes personalizar el mensaje final / Here you can customize the end message
   resultText.innerHTML = `
     <h2 style="color: #2196F3; margin: 5px 0;">
-  
+
     ¡No hay más personajes!
 
-    </h2> 
+    </h2>
     <p style="color:rgb(124, 128, 129); font-size: 12px; margin: 2px 0;">
 
     Puedes recargar la página para empezar de nuevo
@@ -71,10 +131,10 @@ function handleVote(voteType) {
   
   // Muestra el texto "Elección anterior" / Show the text "Previous choice"
   document.querySelector('.result-label').classList.add('visible');
-  
+
   const emoji = voteType === 'Smash' ? '😍' : '😒';
   document.getElementById('result-text').textContent = `${voteType.toUpperCase()}! ${emoji} (${currentCharacter.name})`;
-  
+
   nextCharacter();
   updateDownloadButton();
 }
@@ -85,9 +145,9 @@ let startPosX = 0;
 let currentTranslateX = 0;
 const SWIPE_THRESHOLD = 200;
 
+dragContainer.addEventListener('touchstart', startDrag, { passive: true });
+dragContainer.addEventListener('touchmove', duringDrag, { passive: false });
 // Añadir eventos de arrastre / Add drag events
-dragContainer.addEventListener('touchstart', startDrag);
-dragContainer.addEventListener('touchmove', duringDrag);
 dragContainer.addEventListener('touchend', endDrag);
 dragContainer.addEventListener('mousedown', startDrag);
 dragContainer.addEventListener('mousemove', duringDrag);
@@ -99,7 +159,7 @@ function startDrag(e) {
   if (!currentCharacter) return;
   isDragging = true;
   dragContainer.classList.add('dragging');
-  startPosX = e.clientX || e.touches[0].clientX;
+  startPosX = e.clientX ?? e.touches[0].clientX;
   currentTranslateX = 0;
 }
 
@@ -107,11 +167,10 @@ function startDrag(e) {
 function duringDrag(e) {
   if (!isDragging || !currentCharacter) return;
   e.preventDefault();
-  
-  const currentX = e.clientX || e.touches[0].clientX;
+  const currentX = e.clientX ?? e.touches[0].clientX;
   currentTranslateX = currentX - startPosX;
-  
-  dragContainer.style.transform = `translateX(${currentTranslateX}px) rotate(${currentTranslateX * 0.1}deg)`;
+  dragContainer.style.transform =
+    `translateX(${currentTranslateX}px) rotate(${currentTranslateX * 0.1}deg)`;
 }
 
 // Función para manejar el final del arrastre / Function to handle the end of the drag
@@ -123,9 +182,10 @@ function endDrag() {
   if (Math.abs(currentTranslateX) > SWIPE_THRESHOLD) {
     const voteType = currentTranslateX > 0 ? 'Smash' : 'Pass';
     handleVote(voteType);
-    
+
     // Animación de salida / Exit animation
-    dragContainer.style.transform = `translateX(${currentTranslateX * 2}px) rotate(${currentTranslateX * 0.2}deg)`;
+    dragContainer.style.transform =
+      `translateX(${currentTranslateX * 2}px) rotate(${currentTranslateX * 0.2}deg)`;
     dragContainer.style.opacity = '0';
     setTimeout(() => {
       dragContainer.style.transform = 'none';
@@ -135,6 +195,20 @@ function endDrag() {
     dragContainer.style.transform = 'none';
   }
 }
+
+document.addEventListener('keydown', (e) => {
+  if (!currentCharacter) return;
+  if (e.key === 'ArrowLeft') {
+    if (currentImageIndex > 0) showImage(currentImageIndex - 1);
+  } else if (e.key === 'ArrowRight') {
+    if (currentImageIndex < currentCharacter.images.length - 1)
+      showImage(currentImageIndex + 1);
+  } else if (e.key === 's' || e.key === 'S') {
+    handleVote('Smash');
+  } else if (e.key === 'p' || e.key === 'P') {
+    handleVote('Pass');
+  }
+});
 
 // Inicializa el historial de respuestas / Initialize the response history
 let responses = [];
