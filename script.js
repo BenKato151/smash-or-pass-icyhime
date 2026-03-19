@@ -48,7 +48,10 @@ const characters = [
   ]},
   { name: "Karion Zephyr 🌹☁️ AGENT VTUBER (HIATUS)", images: ["smash_or_pass/KarionZephyr/Karion Zephyr 🌹☁️ AGENT VTUBER (HIATUS)-1.jpg"] },
   { name: "Kijo", images: ["smash_or_pass/KijoGato/Kijo-1.jpg"] },
-  { name: "Kiochi - ReDebut 06.03.2026 - Dokomi 2026", images: ["smash_or_pass/Kiochi_vt/Kiochi - ReDebut 06.03.2026 - Dokomi 2026-1.jpg"] },
+  { name: "Kiochi - ReDebut 06.03.2026 - Dokomi 2026", images: [
+    "smash_or_pass/Kiochi_vt/Kiochi - ReDebut 06.03.2026 - Dokomi 2026-1.jpg",
+    "smash_or_pass/Kiochi_vt/🌸Kiochi - Dokomi 2026🌸-1.jpg"
+  ]},
   { name: "LadySelphia 👑 🐺❄   DER Squad   Rebrand Arc", images: ["smash_or_pass/LadySelphia/LadySelphia 👑 🐺❄ _ DER Squad _ Rebrand Arc-1.jpg"] },
   { name: "ElGurko   Kaito Gurke🃏   Dokomi 2026", images: [
     "smash_or_pass/Leon_ElGurko/ElGurko _ Kaito Gurke🃏 _ Dokomi 2026 _-1.jpg",
@@ -81,7 +84,14 @@ const characters = [
     "smash_or_pass/NagiNovaNya/🍰 NagiNova ☕ _ VTuber _ Club MaidZone-2.jpg",
     "smash_or_pass/NagiNovaNya/🍰 NagiNova ☕ _ VTuber _ Club MaidZone-3.jpg"
   ]},
-  { name: "NangijalaTV 🐾 Catgirl VTuber 💜", images: ["smash_or_pass/NangijalaTV/NangijalaTV 🐾 Catgirl VTuber 💜-1.jpg"] },
+  { name: "NangijalaTV 🐾 Catgirl VTuber 💜", images: [
+    "smash_or_pass/NangijalaTV/NangijalaTV 🐾 Catgirl VTuber 💜-1.jpg",
+    "smash_or_pass/NangijalaTV/NangijalaTV 🐾 DOKOMI 2026 💜-1.jpg"
+  ]},
+  { name: "Naumy   Fangs in the dark", images: [
+    "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-1.jpg",
+    "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-2.jpg"
+  ]},
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
   { name: "Okami der große Böse Wolf | Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf | Ger VTuber-1.jpg"] },
   { name: "Lucius Pavonum🦚 @DOKOMI", images: [
@@ -98,6 +108,7 @@ const characters = [
   { name: "Raelia Laubwind   (Un-) Heilige Allianz", images: ["smash_or_pass/RaeliaLaubwind/Raelia Laubwind _ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Renchen   LeFamily~", images: ["smash_or_pass/RenchenVT/Renchen _ LeFamily~-1.jpg"] },
   { name: "Jack Knight (der mit der maske)", images: ["smash_or_pass/RobbysHobbyEcke/Jack Knight (der mit der maske)-1.jpg"] },
+  { name: "ShinoChoi   Vtuber -.✦", images: ["smash_or_pass/ShinoChoiVTuber/ShinoChoi _ Vtuber -.✦-1.jpg"] },
   { name: "Shiyo 💎", images: [
     "smash_or_pass/ShiyoVT/Shiyo 💎-1.jpg",
     "smash_or_pass/ShiyoVT/Shiyo 💎-2.jpg",
@@ -143,7 +154,9 @@ const characters = [
   { name: "SilentPanda 🐼   Mafia Panda 🎋💜", images: ["smash_or_pass/_silentpandavt_/SilentPanda 🐼 _ Mafia Panda 🎋💜-1.jpg"] },
   { name: "Lunar 🌙 V-ARTIST 💌 TRANSLYRICS", images: ["smash_or_pass/astra_lunar_/Lunar 🌙 V-ARTIST 💌 TRANSLYRICS-1.jpg"] },
   { name: "Lucio volpi", images: ["smash_or_pass/deathangelvolpi/Lucio_volpi_-1.jpg"] },
+  { name: "Dotgy 💜😈   @DOKOMI", images: ["smash_or_pass/dotgyy/Dotgy 💜😈 _ @DOKOMI-1.jpg"] },
   { name: "Mau⭐   GerVTuber", images: ["smash_or_pass/einmau/Mau⭐__ GerVTuber-1.jpg"] },
+  { name: "Elliemirellie", images: ["smash_or_pass/elliemirellie/Elliemirellie-1.jpg"] },
   { name: "Ravora 🍓🍃", images: [
     "smash_or_pass/itsRavora/Ravora 🍓🍃-1.jpg",
     "smash_or_pass/itsRavora/Ravora 🍓🍃-2.jpg",
