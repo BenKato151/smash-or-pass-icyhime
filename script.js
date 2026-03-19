@@ -1,5 +1,6 @@
 // Lista de personajes / Character List
 const characters = [
+
   { name: "Apoint-Ahoki  Dokomi 26", images: ["smash_or_pass/Ahoki_Shogun/Apoint-Ahoki_ Dokomi 26-1.jpg"] },
   { name: "AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026", images: ["smash_or_pass/Alice_DFK/AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026-1.jpg"] },
   { name: "Aregion", images: ["smash_or_pass/AregionOfDoom/Aregion-1.jpg"] },
@@ -13,6 +14,11 @@ const characters = [
     "smash_or_pass/DasOnkeelchen/Onkeelchen __ Toni-1.jpg",
     "smash_or_pass/DasOnkeelchen/Onkeelchen __ Toni-2.jpg",
     "smash_or_pass/DasOnkeelchen/Onkeelchen __ Toni-3.jpg"
+  ]},
+  { name: "Tion GERVtuber 🦋", images: [
+    "smash_or_pass/DemonLordTion/Tion GERVtuber 🦋-1.jpg",
+    "smash_or_pass/DemonLordTion/Tion GERVtuber 🦋-2.jpg",
+    "smash_or_pass/DemonLordTion/Tion GERVtuber 🦋-3.jpg"
   ]},
   { name: "Drachy   PNG VTuber🐉DOKOMI2026", images: ["smash_or_pass/Drachy11/Drachy _ PNG_VTuber🐉DOKOMI2026-1.jpg"] },
   { name: "🪐Shiny Moon  Bundroid Vtuber", images: ["smash_or_pass/Emilia98299945/🪐Shiny Moon__Bundroid Vtuber-1.jpg"] },
@@ -32,6 +38,7 @@ const characters = [
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-2.jpg"
   ]},
   { name: "HappyBen✨GERVtuber (comms  open)", images: ["smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ open)-1.jpg"] },
+  { name: "Jandy Chris ~ Fae PNG-Tuber", images: ["smash_or_pass/JandyChris/Jandy_Chris ~ Fae PNG-Tuber-1.jpg"] },
   { name: "💜Jodaiku💜 GERVtuber", images: ["smash_or_pass/Jodaiku/💜Jodaiku💜 GERVtuber-1.jpg"] },
   { name: "Katerchen   ka7erchen.vtubers.social", images: ["smash_or_pass/Ka7erchen/Katerchen _ ka7erchen.vtubers.social-1.png"] },
   { name: "KaleenaVT", images: [
@@ -76,6 +83,7 @@ const characters = [
   ]},
   { name: "NangijalaTV 🐾 Catgirl VTuber 💜", images: ["smash_or_pass/NangijalaTV/NangijalaTV 🐾 Catgirl VTuber 💜-1.jpg"] },
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
+  { name: "Okami der große Böse Wolf | Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf | Ger VTuber-1.jpg"] },
   { name: "Lucius Pavonum🦚 @DOKOMI", images: [
     "smash_or_pass/PfauTuberLucius/Lucius Pavonum🦚 @DOKOMI-1.jpg",
     "smash_or_pass/PfauTuberLucius/Lucius Pavonum🦚 @DOKOMI-2.jpg",
@@ -154,6 +162,10 @@ const characters = [
   { name: "Marytsune🎀   🦊🎏", images: ["smash_or_pass/marytsunee/Marytsune🎀 _ 🦊🎏-1.jpg"] },
   { name: "Rinuki   Gunplasüchtig 🇦🇹", images: ["smash_or_pass/mechanukii/Rinuki _ Gunplasüchtig 🇦🇹-1.jpg"] },
   { name: "Misamii🐺🔥💜", images: ["smash_or_pass/misamiix3/Misamii🐺🔥💜-1.jpg"] },
+  { name: "Pyrokid⁄Pikachu", images: [
+    "smash_or_pass/pyrokid01/Pyrokid⁄Pikachu-1.jpg",
+    "smash_or_pass/pyrokid01/Pyrokid⁄Pikachu-2.jpg"
+  ]},
   { name: "Roter Drache", images: ["smash_or_pass/roterdrache611/Roter Drache-1.jpg"] },
   { name: "Ryuko Izumi🫧🐟", images: ["smash_or_pass/ryuko_vt/Ryuko Izumi🫧🐟-1.jpg"] },
   { name: "Suppymeggy   Dokomi 2026", images: [
