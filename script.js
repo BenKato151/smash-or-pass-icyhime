@@ -200,6 +200,8 @@ const characters = [
 let availableCharacters = [...characters];
 let currentCharacter = null;
 let currentImageIndex = 0;
+let characterHistory = [];
+let characterFuture = [];
 
 // Elementos del DOM / DOM Elements
 const characterImage = document.getElementById('character-image');
@@ -267,6 +269,11 @@ function loadCharacter() {
     return;
   }
 
+  if (currentCharacter) {
+    characterHistory.push({character: currentCharacter, imageIndex: currentImageIndex});
+  }
+  characterFuture = [];
+
   const randomIndex = Math.floor(Math.random() * availableCharacters.length);
   currentCharacter = availableCharacters[randomIndex];
   availableCharacters.splice(randomIndex, 1);
@@ -274,6 +281,27 @@ function loadCharacter() {
 
   characterName.textContent = currentCharacter.name;
   showImage(0);
+}
+
+function goBack() {
+  if (characterHistory.length === 0) return;
+
+  responses.pop();
+  updateDownloadButton();
+
+  if (currentCharacter) {
+    characterFuture.push({character: currentCharacter, imageIndex: currentImageIndex});
+    availableCharacters.push(currentCharacter);
+  }
+
+  const previous = characterHistory.pop();
+  availableCharacters = availableCharacters.filter(c => c !== previous.character);
+
+  currentCharacter = previous.character;
+  currentImageIndex = previous.imageIndex;
+
+  characterName.textContent = currentCharacter.name;
+  showImage(currentImageIndex);
 }
 
 prevImgBtn.addEventListener('click', (e) => {
@@ -328,6 +356,7 @@ function handleVote(voteType) {
 
   const emoji = voteType === 'Smash' ? '😍' : '😒';
   document.getElementById('result-text').textContent = `${voteType.toUpperCase()}! ${emoji} (${currentCharacter.name})`;
+  document.getElementById('back-btn').style.display = 'inline-block';
 
   nextCharacter();
   updateDownloadButton();
@@ -407,7 +436,20 @@ document.addEventListener('keydown', (e) => {
 // Inicializa el historial de respuestas / Initialize the response history
 let responses = [];
 function nextCharacter() {
-  setTimeout(loadCharacter, 0);
+  if (characterFuture.length > 0) {
+    const next = characterFuture.pop();
+    if (currentCharacter) {
+      characterHistory.push({character: currentCharacter, imageIndex: currentImageIndex});
+    }
+    availableCharacters = availableCharacters.filter(c => c !== next.character);
+    currentCharacter = next.character;
+    currentImageIndex = next.imageIndex;
+    characterName.textContent = currentCharacter.name;
+    showImage(currentImageIndex);
+  }
+  else {
+    setTimeout(loadCharacter, 0);
+  }
 }
 
 // Función para mostrar el botón de descarga / Function to show the download button

@@ -101,6 +101,11 @@ button:hover {
   cursor: pointer;
 }
 
+#back-btn {
+  background-color: #3b3b3b;
+  display: none;
+}
+
 /* Resultados */
 #result {
   font-weight: bold;
