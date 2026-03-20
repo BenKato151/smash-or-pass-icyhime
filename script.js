@@ -242,6 +242,12 @@ function renderDots(total, active) {
   }
 }
 
+function updateCounter() {
+  const total = characters.length;
+  const current = total - availableCharacters.length;
+  document.getElementById('character-counter').textContent = `Character ${current} / ${total}`;
+}
+
 function showImage(index) {
   if (!currentCharacter) return;
   const imgs = currentCharacter.images;
@@ -281,6 +287,7 @@ function loadCharacter() {
 
   characterName.textContent = currentCharacter.name;
   showImage(0);
+  updateCounter();
 }
 
 function goBack() {
@@ -302,6 +309,7 @@ function goBack() {
 
   characterName.textContent = currentCharacter.name;
   showImage(currentImageIndex);
+  updateCounter();
 }
 
 prevImgBtn.addEventListener('click', (e) => {
@@ -446,6 +454,7 @@ function nextCharacter() {
     currentImageIndex = next.imageIndex;
     characterName.textContent = currentCharacter.name;
     showImage(currentImageIndex);
+    updateCounter();
   }
   else {
     setTimeout(loadCharacter, 0);
