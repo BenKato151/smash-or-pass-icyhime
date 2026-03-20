@@ -37,7 +37,10 @@ const characters = [
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-1.jpg",
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-2.jpg"
   ]},
-  { name: "HappyBen✨GERVtuber (comms  open)", images: ["smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ open)-1.jpg"] },
+  { name: "HappyBen✨GERVtuber (comms  open)", images: [
+    "smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ open)-1.jpg",
+    "smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ waitlist)-1.jpg"
+  ]},
   { name: "Jandy Chris ~ Fae PNG-Tuber", images: ["smash_or_pass/JandyChris/Jandy_Chris ~ Fae PNG-Tuber-1.jpg"] },
   { name: "💜Jodaiku💜 GERVtuber", images: ["smash_or_pass/Jodaiku/💜Jodaiku💜 GERVtuber-1.jpg"] },
   { name: "Katerchen   ka7erchen.vtubers.social", images: ["smash_or_pass/Ka7erchen/Katerchen _ ka7erchen.vtubers.social-1.png"] },
@@ -145,6 +148,7 @@ const characters = [
     "smash_or_pass/VictorijaVT/Viktorija ❄️🦊 _ 🏳️‍⚧️ (Un-) Heilige Allianz-4.jpg"
   ]},
   { name: "XIRESS   GERVTuber", images: ["smash_or_pass/X1RESS/XIRESS _ GERVTuber-1.jpg"] },
+  { name: "Yoma 🐯", images: ["smash_or_pass/Yoma_GER/Yoma 🐯-1.jpg"] },
   { name: "💥YooJa💛", images: ["smash_or_pass/Yooja_VT/💥YooJa💛-1.jpg"] },
   { name: "Yura Yami   GerVtuber", images: ["smash_or_pass/YuraYamiDE/Yura Yami _ GerVtuber-1.jpg"] },
   { name: "Zero Trinity 🦇🌸  Dokomi 26   GerVtubercouple", images: [
@@ -185,6 +189,10 @@ const characters = [
     "smash_or_pass/suppymeggy/Suppymeggy _ Dokomi 2026-1.jpg",
     "smash_or_pass/suppymeggy/Suppymeggy _ Dokomi 2026-2.jpg",
     "smash_or_pass/suppymeggy/Suppymeggy _ Dokomi 2026-3.jpg"
+  ]},
+  { name: "💜Nebula x3 🐈‍⬛💜NEKO-WITCH-VTUBER", images: [
+    "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-1.jpg",
+    "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-2.jpg"
   ]},
   { name: "Xayrie 🌸   @Dokomi 2026", images: ["smash_or_pass/xayriee/Xayrie 🌸 _ @Dokomi 2026-1.jpg"] }
 ];
