@@ -36,11 +36,17 @@ const characters = [
     "smash_or_pass/GoodOldMario/GoodOldMario🐺✨️-2.jpg",
     "smash_or_pass/GoodOldMario/GoodOldMario🐺✨️-3.jpg"
   ]},
+  { name: "Greph Xordero", images: ["smash_or_pass/GrephXordero/Greph Xordero-1.jpeg"] },
   { name: "Haunty 🖤🌸 DoKomi 2026", images: ["smash_or_pass/HauntingHana/Haunty 🖤🌸 DoKomi 2026-1.jpg"] },
   { name: "Hoshizuki 🦊⛩️   🏳️‍⚧️ (Un-) Heilige Allianz", images: ["smash_or_pass/HoshizukiVT/Hoshizuki 🦊⛩️ _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Ignitris - Feuerbär-Geist", images: [
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-1.jpg",
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-2.jpg"
+  ]},
+  { name: "Akari", images: [
+    "smash_or_pass/ImAkari4/Akari-1.jpg",
+    "smash_or_pass/ImAkari4/Akari-2.jpg",
+    "smash_or_pass/ImAkari4/Akari-3.jpg"
   ]},
   { name: "HappyBen✨GERVtuber (comms  open)", images: [
     "smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ open)-1.jpg",
