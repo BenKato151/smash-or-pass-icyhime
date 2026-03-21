@@ -2,10 +2,15 @@
 const characters = [
 
   { name: "Apoint-Ahoki  Dokomi 26", images: ["smash_or_pass/Ahoki_Shogun/Apoint-Ahoki_ Dokomi 26-1.jpg"] },
+  { name: "Akilotl 🩸 🩷 {ImpVtuber} @Dokomi", images: ["smash_or_pass/Akilotl/Akilotl 🩸 🩷 {ImpVtuber} @Dokomi-1.jpg"] },
   { name: "AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026", images: ["smash_or_pass/Alice_DFK/AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026-1.jpg"] },
   { name: "Aregion", images: ["smash_or_pass/AregionOfDoom/Aregion-1.jpg"] },
   { name: "Ahr0n", images: ["smash_or_pass/AxeolotlAhr0n/Ahr0n-1.jpg"] },
   { name: "Blaic🦇GerVTuber💜DOKOMI2026", images: ["smash_or_pass/BlaicMarrow/Blaic🦇GerVTuber💜DOKOMI2026-1.jpg"] },
+  { name: "Robin ✧˚ ₊Birb PNGtuber₊˚✧", images: [
+    "smash_or_pass/Bloody_RobinVT/Robin ✧˚ ₊Birb PNGtuber₊˚✧-1.jpg",
+    "smash_or_pass/Bloody_RobinVT/Robin ✧˚ ₊Birb PNGtuber₊˚✧-2.jpg"
+  ]},
   { name: "Mizuki   Re-Debut 2026   VArtist", images: ["smash_or_pass/BnuyMizukii/Mizuki _ Re-Debut 2026 _ VArtist-1.jpg"] },
   { name: "Cellara   GERVTuber ✧˚ ₊", images: ["smash_or_pass/CellaraVT/Cellara _ GERVTuber ✧˚ ₊-1.jpg"] },
   { name: "Corvis   🐦‍⬛🇮🇹   Debut 28.03 2026   Dokomi 2026", images: ["smash_or_pass/CorvisAtreis/Corvis _ 🐦‍⬛🇮🇹 _ Debut 28.03 2026 _ Dokomi 2026-1.jpg"] },
@@ -159,6 +164,7 @@ const characters = [
   { name: "Lunar 🌙 V-ARTIST 💌 TRANSLYRICS", images: ["smash_or_pass/astra_lunar_/Lunar 🌙 V-ARTIST 💌 TRANSLYRICS-1.jpg"] },
   { name: "Lucio volpi", images: ["smash_or_pass/deathangelvolpi/Lucio_volpi_-1.jpg"] },
   { name: "Dotgy 💜😈   @DOKOMI", images: ["smash_or_pass/dotgyy/Dotgy 💜😈 _ @DOKOMI-1.jpg"] },
+  { name: "𓄼Azuriel↝   Couch-Dämon", images: ["smash_or_pass/einAzuriel/𓄼Azuriel↝ _ Couch-Dämon-1.jpg"] },
   { name: "Mau⭐   GerVTuber", images: ["smash_or_pass/einmau/Mau⭐__ GerVTuber-1.jpg"] },
   { name: "Elliemirellie", images: ["smash_or_pass/elliemirellie/Elliemirellie-1.jpg"] },
   { name: "Ravora 🍓🍃", images: [
