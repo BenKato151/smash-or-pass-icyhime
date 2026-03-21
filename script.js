@@ -27,6 +27,7 @@ const characters = [
   ]},
   { name: "Drachy   PNG VTuber🐉DOKOMI2026", images: ["smash_or_pass/Drachy11/Drachy _ PNG_VTuber🐉DOKOMI2026-1.jpg"] },
   { name: "🪐Shiny Moon  Bundroid Vtuber", images: ["smash_or_pass/Emilia98299945/🪐Shiny Moon__Bundroid Vtuber-1.jpg"] },
+  { name: "Fenari", images: ["smash_or_pass/Fenari/Fenari-1.png"] },
   { name: "Frau Ente I Mex 2026♡", images: [
     "smash_or_pass/Frau_Ente_VT/Frau_Ente I Mex 2026♡-1.jpg",
     "smash_or_pass/Frau_Ente_VT/Frau_Ente I Mex 2026♡-2.jpg"
@@ -108,6 +109,7 @@ const characters = [
   ]},
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
   { name: "Okami der große Böse Wolf | Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf | Ger VTuber-1.jpg"] },
+  { name: "Pantero Reborn 🖤🐾🌿   GerVTuber   🇩🇪", images: ["smash_or_pass/PanteroReborn/Pantero Reborn 🖤🐾🌿 _ GerVTuber _ 🇩🇪-1.jpg"] },
   { name: "Lucius Pavonum🦚 @DOKOMI", images: [
     "smash_or_pass/PfauTuberLucius/Lucius Pavonum🦚 @DOKOMI-1.jpg",
     "smash_or_pass/PfauTuberLucius/Lucius Pavonum🦚 @DOKOMI-2.jpg",
@@ -141,6 +143,10 @@ const characters = [
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-3.jpg",
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-4.jpg"
   ]},
+  { name: "🍁Takiyasha🍁   Dokomi 2026", images: [
+    "smash_or_pass/TakiyashaSan/🍁Takiyasha🍁 _ Dokomi 2026-1.jpg",
+    "smash_or_pass/TakiyashaSan/🍁Takiyasha🍁 _ Dokomi 2026-2.jpg"
+  ]},
   { name: "EinfachTamTam  🍗Schnitzel Vtuber 🍗", images: [
     "smash_or_pass/TamEinfach/EinfachTamTam _🍗Schnitzel Vtuber 🍗-1.jpg",
     "smash_or_pass/TamEinfach/EinfachTamTam _🍗Schnitzel Vtuber 🍗-2.jpg"
@@ -162,6 +168,10 @@ const characters = [
   { name: "Yoma 🐯", images: ["smash_or_pass/Yoma_GER/Yoma 🐯-1.jpg"] },
   { name: "💥YooJa💛", images: ["smash_or_pass/Yooja_VT/💥YooJa💛-1.jpg"] },
   { name: "Yura Yami   GerVtuber", images: ["smash_or_pass/YuraYamiDE/Yura Yami _ GerVtuber-1.jpg"] },
+  { name: "Yyümira", images: [
+    "smash_or_pass/Yyümira/Yyümira-1.png",
+    "smash_or_pass/Yyümira/Yyümira-2.png"
+  ]},
   { name: "Zero Trinity 🦇🌸  Dokomi 26   GerVtubercouple", images: [
     "smash_or_pass/Zero_Trinity_tv/Zero_Trinity 🦇🌸_ Dokomi 26 _ GerVtubercouple-1.jpg",
     "smash_or_pass/Zero_Trinity_tv/Zero_Trinity 🦇🌸_ Dokomi 26 _ GerVtubercouple-2.jpg"
