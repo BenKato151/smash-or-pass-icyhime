@@ -323,6 +323,40 @@ nextImgBtn.addEventListener('click', (e) => {
     showImage(currentImageIndex + 1);
 });
 
+function renderOverview() {
+  const container = document.getElementById('overview-grid');
+  container.innerHTML = '';
+
+  const seen = new Set();
+  const uniqueResponses = responses.filter(resp => {
+    if (seen.has(resp.character)) return false;
+    seen.add(resp.character);
+    return true;
+  });
+
+  uniqueResponses.forEach(resp => {
+    const cell = document.createElement('div');
+    cell.className = 'overview-cell';
+
+    const img = document.createElement('img');
+    img.src = resp.image;
+
+    const overlay = document.createElement('div');
+    overlay.className = resp.response === 'Smash' ? 'overlay-smash' : 'overlay-pass';
+
+    const label = document.createElement('span');
+    label.className = 'overview-label';
+    label.textContent = resp.character;
+
+    cell.appendChild(img);
+    cell.appendChild(overlay);
+    cell.appendChild(label);
+    container.appendChild(cell);
+  });
+
+  container.style.display = 'grid';
+}
+
 // Función para mostrar mensaje final (Al acabarse la lista de personajes) / Function to show end message (When the character list runs out)
 function showEndMessage() {
   card.style.display = 'none';
@@ -348,6 +382,7 @@ function showEndMessage() {
     </p>
   `;
   document.getElementById('download-btn').style.animation = 'pulse 1.5s infinite';
+  renderOverview();
 }
 
 // Eventos de botones / Button events
@@ -357,7 +392,7 @@ passBtn.addEventListener('click', () => handleVote('Pass'));
 function handleVote(voteType) {
   if (!currentCharacter) return;
 
-  responses.push({ character: currentCharacter.name, response: voteType });
+  responses.push({ character: currentCharacter.name, image: currentCharacter.images[0] ,response: voteType });
   
   // Muestra el texto "Elección anterior" / Show the text "Previous choice"
   document.querySelector('.result-label').classList.add('visible');
