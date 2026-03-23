@@ -158,6 +158,11 @@ const characters = [
     "smash_or_pass/TimotamunVT/TimoTamunVT _ ~ 21.03. Debut ~ _ GERVtuber~ ⚡🦅-3.jpg",
     "smash_or_pass/TimotamunVT/TimoTamunVT _ ~ 21.03. Debut ~ _ GERVtuber~ ⚡🦅-4.jpg"
   ]},
+  { name: "Tsukii", images: [
+    "smash_or_pass/TsukiiYumii/Tsukii-1.jpg",
+    "smash_or_pass/TsukiiYumii/Tsukii-2.jpg",
+    "smash_or_pass/TsukiiYumii/Tsukii-3.jpg"
+  ]},
   { name: "Viktorija ❄️🦊   🏳️‍⚧️ (Un-) Heilige Allianz", images: [
     "smash_or_pass/VictorijaVT/Viktorija ❄️🦊 _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg",
     "smash_or_pass/VictorijaVT/Viktorija ❄️🦊 _ 🏳️‍⚧️ (Un-) Heilige Allianz-2.jpg",
