@@ -136,12 +136,20 @@ const characters = [
     "smash_or_pass/SpiritsSoul_08/SpiritsSoul __ GerVTuber __ Dokomi 2026-1.jpg",
     "smash_or_pass/SpiritsSoul_08/SpiritsSoul __ GerVTuber __ Dokomi 2026-2.jpg"
   ]},
+  { name: "StrayMajora", images: [
+    "smash_or_pass/StrayMajora/StrayMajora-1.jpg",
+    "smash_or_pass/StrayMajora/StrayMajora-2.jpg"
+  ]},
   { name: "Suiiki GerVTuber Dokomi2026", images: ["smash_or_pass/Suiiki_34/Suiiki_GerVTuber_Dokomi2026-1.jpg"] },
   { name: "Suo ⚔️🌓 Demigod Vtuber", images: [
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-1.jpg",
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-2.jpg",
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-3.jpg",
     "smash_or_pass/SuoRaihatsu/Suo ⚔️🌓 Demigod Vtuber-4.jpg"
+  ]},
+  { name: "Syraxis 🐛✨  Monster Boy Vtuber", images: [
+    "smash_or_pass/Syraxis/Syraxis 🐛✨_ Monster Boy Vtuber-1.jpg",
+    "smash_or_pass/Syraxis/Syraxis 🐛✨_ Monster Boy Vtuber-2.jpg"
   ]},
   { name: "🍁Takiyasha🍁   Dokomi 2026", images: [
     "smash_or_pass/TakiyashaSan/🍁Takiyasha🍁 _ Dokomi 2026-1.jpg",
@@ -158,10 +166,17 @@ const characters = [
     "smash_or_pass/TimotamunVT/TimoTamunVT _ ~ 21.03. Debut ~ _ GERVtuber~ ⚡🦅-3.jpg",
     "smash_or_pass/TimotamunVT/TimoTamunVT _ ~ 21.03. Debut ~ _ GERVtuber~ ⚡🦅-4.jpg"
   ]},
+  { name: "ToruVT 👾", images: ["smash_or_pass/ToruBTW/ToruVT 👾-1.jpg"] },
   { name: "Tsukii", images: [
     "smash_or_pass/TsukiiYumii/Tsukii-1.jpg",
     "smash_or_pass/TsukiiYumii/Tsukii-2.jpg",
     "smash_or_pass/TsukiiYumii/Tsukii-3.jpg"
+  ]},
+  { name: "Vel👑🩸   Vtuber 👑🩸", images: [
+    "smash_or_pass/Velytress/Vel👑🩸 _ Vtuber 👑🩸-1.jpg",
+    "smash_or_pass/Velytress/Vel👑🩸 _ Vtuber 👑🩸-2.jpg",
+    "smash_or_pass/Velytress/Vel👑🩸 _ Vtuber 👑🩸-3.jpg",
+    "smash_or_pass/Velytress/Vel👑🩸 _ Vtuber 👑🩸-4.jpg"
   ]},
   { name: "Viktorija ❄️🦊   🏳️‍⚧️ (Un-) Heilige Allianz", images: [
     "smash_or_pass/VictorijaVT/Viktorija ❄️🦊 _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg",
@@ -183,6 +198,11 @@ const characters = [
   ]},
   { name: "SilentPanda 🐼   Mafia Panda 🎋💜", images: ["smash_or_pass/_silentpandavt_/SilentPanda 🐼 _ Mafia Panda 🎋💜-1.jpg"] },
   { name: "Lunar 🌙 V-ARTIST 💌 TRANSLYRICS", images: ["smash_or_pass/astra_lunar_/Lunar 🌙 V-ARTIST 💌 TRANSLYRICS-1.jpg"] },
+  { name: "🫧AvinOcean 💙🐳🦈🫧", images: [
+    "smash_or_pass/avinocean/🫧AvinOcean 💙🐳🦈🫧-1.jpg",
+    "smash_or_pass/avinocean/🫧AvinOcean 💙🐳🦈🫧-2.jpg"
+  ]},
+  { name: "Blizz🦎🗺️ GERVTuber", images: ["smash_or_pass/blizzchaq/Blizz🦎🗺️ GERVTuber-1.jpg"] },
   { name: "Lucio volpi", images: ["smash_or_pass/deathangelvolpi/Lucio_volpi_-1.jpg"] },
   { name: "Dotgy 💜😈   @DOKOMI", images: ["smash_or_pass/dotgyy/Dotgy 💜😈 _ @DOKOMI-1.jpg"] },
   { name: "𓄼Azuriel↝   Couch-Dämon", images: ["smash_or_pass/einAzuriel/𓄼Azuriel↝ _ Couch-Dämon-1.jpg"] },
@@ -221,7 +241,8 @@ const characters = [
     "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-1.jpg",
     "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-2.jpg"
   ]},
-  { name: "Xayrie 🌸   @Dokomi 2026", images: ["smash_or_pass/xayriee/Xayrie 🌸 _ @Dokomi 2026-1.jpg"] }
+  { name: "Xayrie 🌸   @Dokomi 2026", images: ["smash_or_pass/xayriee/Xayrie 🌸 _ @Dokomi 2026-1.jpg"] },
+  { name: "🌸Chiyo", images: ["smash_or_pass/xchiyotan/🌸Chiyo-1.jpg"] }
 ];
 
 let availableCharacters = [...characters];
