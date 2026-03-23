@@ -68,10 +68,15 @@ const characters = [
     "smash_or_pass/Kiochi_vt/🌸Kiochi - Dokomi 2026🌸-1.jpg"
   ]},
   { name: "LadySelphia 👑 🐺❄   DER Squad   Rebrand Arc", images: ["smash_or_pass/LadySelphia/LadySelphia 👑 🐺❄ _ DER Squad _ Rebrand Arc-1.jpg"] },
+  { name: "Leanorar 🐈🪽Cat Angel Vtuber   Dokomi 2026", images: [
+    "smash_or_pass/Leanorar_Mao/Leanorar 🐈🪽Cat Angel Vtuber _ Dokomi 2026 _-1.jpg",
+    "smash_or_pass/Leanorar_Mao/Leanorar 🐈🪽Cat Angel Vtuber _ Dokomi 2026 _-2.jpg"
+  ]},
   { name: "ElGurko   Kaito Gurke🃏   Dokomi 2026", images: [
     "smash_or_pass/Leon_ElGurko/ElGurko _ Kaito Gurke🃏 _ Dokomi 2026 _-1.jpg",
     "smash_or_pass/Leon_ElGurko/ElGurko _ Kaito Gurke🃏 _ Dokomi 2026 _-2.jpg"
   ]},
+  { name: "Luis the Croc 🐊   Crocodile Vtuber", images: ["smash_or_pass/Luis_the_croc/Luis the Croc 🐊__ Crocodile Vtuber-1.jpg"] },
   { name: "Luricerus   höllenhund 🇩🇪🇮🇹", images: [
     "smash_or_pass/Luricerus/Luricerus__ höllenhund 🇩🇪🇮🇹-1.jpg",
     "smash_or_pass/Luricerus/Luricerus__ höllenhund 🇩🇪🇮🇹-2.jpg",
@@ -221,14 +226,23 @@ const characters = [
     "smash_or_pass/kayaba_sama/Kayaba_sama _ GERVtuber _ Hüter der Zeit ⏳-1.png",
     "smash_or_pass/kayaba_sama/Kayaba_sama _ GERVtuber _ Hüter der Zeit ⏳-2.jpg"
   ]},
+  { name: "♡ Kyomi ♡ 🦊❤️", images: ["smash_or_pass/kyowowomi/♡ Kyomi ♡ 🦊❤️-1.jpg"] },
   { name: "maeli 🍞🎀 Narwal Vtuber", images: ["smash_or_pass/maelibun/maeli 🍞🎀 Narwal Vtuber-1.jpg"] },
   { name: "Maggie   Dokomi 26   2.0. SOON", images: ["smash_or_pass/magVariety/Maggie _ Dokomi 26 _ 2.0. SOON-1.jpg"] },
   { name: "Marytsune🎀   🦊🎏", images: ["smash_or_pass/marytsunee/Marytsune🎀 _ 🦊🎏-1.jpg"] },
   { name: "Rinuki   Gunplasüchtig 🇦🇹", images: ["smash_or_pass/mechanukii/Rinuki _ Gunplasüchtig 🇦🇹-1.jpg"] },
   { name: "Misamii🐺🔥💜", images: ["smash_or_pass/misamiix3/Misamii🐺🔥💜-1.jpg"] },
+  { name: "MiuYuna   GerVTuber", images: [
+    "smash_or_pass/miu__yuna/MiuYuna _ GerVTuber-1.jpg",
+    "smash_or_pass/miu__yuna/MiuYuna _ GerVTuber-2.jpg"
+  ]},
   { name: "Pyrokid⁄Pikachu", images: [
     "smash_or_pass/pyrokid01/Pyrokid⁄Pikachu-1.jpg",
     "smash_or_pass/pyrokid01/Pyrokid⁄Pikachu-2.jpg"
+  ]},
+  { name: "Sir Reap", images: [
+    "smash_or_pass/reap_sir/Sir Reap-1.jpg",
+    "smash_or_pass/reap_sir/Sir Reap-2.jpg"
   ]},
   { name: "Roter Drache", images: ["smash_or_pass/roterdrache611/Roter Drache-1.jpg"] },
   { name: "Ryuko Izumi🫧🐟", images: ["smash_or_pass/ryuko_vt/Ryuko Izumi🫧🐟-1.jpg"] },
