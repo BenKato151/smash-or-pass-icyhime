@@ -124,6 +124,7 @@ const characters = [
     "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-2.jpg"
   ]},
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
+  { name: "NezuAwoo   VTuber   Bodybuilding", images: ["smash_or_pass/NezuAwoo/NezuAwoo _ VTuber _ Bodybuilding-1.jpg"] },
   { name: "Noctus | DER Squad |✨Dokomi 2026✨", images: [
     "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-1.jpeg",
     "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-2.jpeg"
@@ -274,6 +275,7 @@ const characters = [
     "smash_or_pass/suppymeggy/Suppymeggy _ Dokomi 2026-2.jpg",
     "smash_or_pass/suppymeggy/Suppymeggy _ Dokomi 2026-3.jpg"
   ]},
+  { name: "wolfiesandy", images: ["smash_or_pass/wolfiesandy/wolfiesandy-1.jpg"] },
   { name: "💜Nebula x3 🐈‍⬛💜NEKO-WITCH-VTUBER", images: [
     "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-1.jpg",
     "smash_or_pass/x3_nebula/💜Nebula_x3 🐈‍⬛💜NEKO-WITCH-VTUBER-2.jpg"
