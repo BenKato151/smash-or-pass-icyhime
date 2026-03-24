@@ -30,10 +30,10 @@ const characters = [
   ]},
   { name: "Drachy   PNG VTuber🐉DOKOMI2026", images: ["smash_or_pass/Drachy11/Drachy _ PNG_VTuber🐉DOKOMI2026-1.jpg"] },
   { name: "🪐Shiny Moon  Bundroid Vtuber", images: ["smash_or_pass/Emilia98299945/🪐Shiny Moon__Bundroid Vtuber-1.jpg"] },
-  { name: "Fenari", images: ["smash_or_pass/Fenari/Fenari-1.png"] },
   { name: "Fenari👁️", images: [
     "smash_or_pass/FenariMori/Fenari👁️-1.jpg",
-    "smash_or_pass/FenariMori/Fenari👁️-2.jpg"
+    "smash_or_pass/FenariMori/Fenari👁️-2.jpg",
+    "smash_or_pass/FenariMori/Fenari👁️-3.jpg"
   ]},
   { name: "Frau Ente I Mex 2026♡", images: [
     "smash_or_pass/Frau_Ente_VT/Frau_Ente I Mex 2026♡-1.jpg",
@@ -60,10 +60,7 @@ const characters = [
     "smash_or_pass/ImAkari4/Akari-2.jpg",
     "smash_or_pass/ImAkari4/Akari-3.jpg"
   ]},
-  { name: "HappyBen✨GERVtuber (comms  open)", images: [
-    "smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ open)-1.jpg",
-    "smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ waitlist)-1.jpg"
-  ]},
+  { name: "HappyBen✨GERVtuber (comms  waitlist)", images: ["smash_or_pass/ItsHappyBen/HappyBen✨GERVtuber (comms_ waitlist)-1.jpg"] },
   { name: "Jandy Chris ~ Fae PNG-Tuber", images: ["smash_or_pass/JandyChris/Jandy_Chris ~ Fae PNG-Tuber-1.jpg"] },
   { name: "💜Jodaiku💜 GERVtuber", images: ["smash_or_pass/Jodaiku/💜Jodaiku💜 GERVtuber-1.jpg"] },
   { name: "Katerchen   ka7erchen.vtubers.social", images: ["smash_or_pass/Ka7erchen/Katerchen _ ka7erchen.vtubers.social-1.png"] },
@@ -74,10 +71,7 @@ const characters = [
   ]},
   { name: "Karion Zephyr 🌹☁️ AGENT VTUBER (HIATUS)", images: ["smash_or_pass/KarionZephyr/Karion Zephyr 🌹☁️ AGENT VTUBER (HIATUS)-1.jpg"] },
   { name: "Kijo", images: ["smash_or_pass/KijoGato/Kijo-1.jpg"] },
-  { name: "Kiochi - ReDebut 06.03.2026 - Dokomi 2026", images: [
-    "smash_or_pass/Kiochi_vt/Kiochi - ReDebut 06.03.2026 - Dokomi 2026-1.jpg",
-    "smash_or_pass/Kiochi_vt/🌸Kiochi - Dokomi 2026🌸-1.jpg"
-  ]},
+  { name: "Kiochi - ReDebut 06.03.2026 - Dokomi 2026", images: ["smash_or_pass/Kiochi_vt/Kiochi - ReDebut 06.03.2026 - Dokomi 2026-1.jpg"] },
   { name: "LadySelphia 👑 🐺❄   DER Squad   Rebrand Arc", images: ["smash_or_pass/LadySelphia/LadySelphia 👑 🐺❄ _ DER Squad _ Rebrand Arc-1.jpg"] },
   { name: "Leanorar 🐈🪽Cat Angel Vtuber   Dokomi 2026", images: [
     "smash_or_pass/Leanorar_Mao/Leanorar 🐈🪽Cat Angel Vtuber _ Dokomi 2026 _-1.jpg",
@@ -99,7 +93,7 @@ const characters = [
     "smash_or_pass/LysanderVT_/Lysander 🦋📚 Moth-VTuber @Vibrant-2.jpg",
     "smash_or_pass/LysanderVT_/Lysander 🦋📚 Moth-VTuber @Vibrant-3.jpg"
   ]},
-  { name: "MAYO   MAYURA 🧠🦖", images: ["smash_or_pass/Mayura_channel/MAYO _ MAYURA 🧠🦖-1.jpg"] },
+  { name: "Leon S. Kennedy", images: ["smash_or_pass/Mayura_channel/Leon S. Kennedy-1.jpg"] },
   { name: "Milkyray🪽🥛【YUNYUN!!】", images: [
     "smash_or_pass/Milkmeray/Milkyray🪽🥛【YUNYUN!!】-1.jpg",
     "smash_or_pass/Milkmeray/Milkyray🪽🥛【YUNYUN!!】-2.jpg"
@@ -115,10 +109,7 @@ const characters = [
     "smash_or_pass/NagiNovaNya/🍰 NagiNova ☕ _ VTuber _ Club MaidZone-2.jpg",
     "smash_or_pass/NagiNovaNya/🍰 NagiNova ☕ _ VTuber _ Club MaidZone-3.jpg"
   ]},
-  { name: "NangijalaTV 🐾 Catgirl VTuber 💜", images: [
-    "smash_or_pass/NangijalaTV/NangijalaTV 🐾 Catgirl VTuber 💜-1.jpg",
-    "smash_or_pass/NangijalaTV/NangijalaTV 🐾 DOKOMI 2026 💜-1.jpg"
-  ]},
+  { name: "NangijalaTV 🐾 Catgirl VTuber 💜", images: ["smash_or_pass/NangijalaTV/NangijalaTV 🐾 Catgirl VTuber 💜-1.jpg"] },
   { name: "Naumy   Fangs in the dark", images: [
     "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-1.jpg",
     "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-2.jpg"
@@ -235,7 +226,6 @@ const characters = [
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-2.png",
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-3.png",
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-4.webp"
-    /* I can't wait to see her reaction to these haha xD */
   ]},
   { name: "Ravora 🍓🍃", images: [
     "smash_or_pass/itsRavora/Ravora 🍓🍃-1.jpg",
