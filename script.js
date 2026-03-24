@@ -48,9 +48,7 @@ const characters = [
   { name: "Haunty 🖤🌸 DoKomi 2026", images: ["smash_or_pass/HauntingHana/Haunty 🖤🌸 DoKomi 2026-1.jpg"] },
   { name: "Himechii 🦋   04.04. JUBILÄUM   GerVTuber", images: [
     "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-1.jpg",
-    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg",
-    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-3.jpeg"
-    /* Sorry Hime, aber ich hab die Macht hier xD */
+    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg"
   ]},
   { name: "Hoshizuki 🦊⛩️   🏳️‍⚧️ (Un-) Heilige Allianz", images: ["smash_or_pass/HoshizukiVT/Hoshizuki 🦊⛩️ _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Ignitris - Feuerbär-Geist", images: [
