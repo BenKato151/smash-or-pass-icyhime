@@ -208,7 +208,7 @@ const characters = [
     "smash_or_pass/Zero_Trinity_tv/Zero_Trinity 🦇🌸_ Dokomi 26 _ GerVtubercouple-1.jpg",
     "smash_or_pass/Zero_Trinity_tv/Zero_Trinity 🦇🌸_ Dokomi 26 _ GerVtubercouple-2.jpg"
   ]},
-  { name: "SilentPanda | Mafia Panda", images: ["smash_or_pass/_silentpandavt_/SilentPanda | Mafia Panda-1.jpeg"] },
+  { name: "SilentPanda - Mafia Panda", images: ["smash_or_pass/_silentpandavt_/SilentPanda - Mafia Panda-1.jpeg"] },
   { name: "Lunar 🌙 V-ARTIST 💌 TRANSLYRICS", images: ["smash_or_pass/astra_lunar_/Lunar 🌙 V-ARTIST 💌 TRANSLYRICS-1.jpg"] },
   { name: "🫧AvinOcean 💙🐳🦈🫧", images: [
     "smash_or_pass/avinocean/🫧AvinOcean 💙🐳🦈🫧-1.jpg",
