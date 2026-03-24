@@ -48,7 +48,8 @@ const characters = [
   { name: "Haunty 🖤🌸 DoKomi 2026", images: ["smash_or_pass/HauntingHana/Haunty 🖤🌸 DoKomi 2026-1.jpg"] },
   { name: "Himechii 🦋   04.04. JUBILÄUM   GerVTuber", images: [
     "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-1.jpg",
-    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg"
+    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg",
+    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-3.jpeg"
   ]},
   { name: "Hoshizuki 🦊⛩️   🏳️‍⚧️ (Un-) Heilige Allianz", images: ["smash_or_pass/HoshizukiVT/Hoshizuki 🦊⛩️ _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Ignitris - Feuerbär-Geist", images: [
@@ -229,6 +230,12 @@ const characters = [
   { name: "Mau⭐   GerVTuber", images: ["smash_or_pass/einmau/Mau⭐__ GerVTuber-1.jpg"] },
   { name: "Elliemirellie", images: ["smash_or_pass/elliemirellie/Elliemirellie-1.jpg"] },
   { name: "Hakujou @Dokomi2026", images: ["smash_or_pass/hakujou_vtuber/Hakujou @Dokomi2026-1.jpeg"] },
+  { name: "our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE", images: [
+    "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-1.png",
+    "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-2.png",
+    "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-3.png",
+    "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-4.webp"
+  ]},
   { name: "Ravora 🍓🍃", images: [
     "smash_or_pass/itsRavora/Ravora 🍓🍃-1.jpg",
     "smash_or_pass/itsRavora/Ravora 🍓🍃-2.jpg",
