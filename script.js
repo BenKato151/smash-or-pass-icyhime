@@ -50,6 +50,7 @@ const characters = [
     "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-1.jpg",
     "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg",
     "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-3.jpeg"
+    /* Sorry Hime, aber ich hab die Macht hier xD */
   ]},
   { name: "Hoshizuki 🦊⛩️   🏳️‍⚧️ (Un-) Heilige Allianz", images: ["smash_or_pass/HoshizukiVT/Hoshizuki 🦊⛩️ _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Ignitris - Feuerbär-Geist", images: [
@@ -235,6 +236,7 @@ const characters = [
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-2.png",
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-3.png",
     "smash_or_pass/icyhime/our lord and savior and master and the HOTTEST Spider in da hood ICYHIMEEEE-4.webp"
+    /* I can't wait to see her reaction to these haha xD */
   ]},
   { name: "Ravora 🍓🍃", images: [
     "smash_or_pass/itsRavora/Ravora 🍓🍃-1.jpg",
