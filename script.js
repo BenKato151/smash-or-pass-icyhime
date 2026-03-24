@@ -4,6 +4,8 @@ const characters = [
   { name: "Apoint-Ahoki  Dokomi 26", images: ["smash_or_pass/Ahoki_Shogun/Apoint-Ahoki_ Dokomi 26-1.jpg"] },
   { name: "Akilotl 🩸 🩷 {ImpVtuber} @Dokomi", images: ["smash_or_pass/Akilotl/Akilotl 🩸 🩷 {ImpVtuber} @Dokomi-1.jpg"] },
   { name: "AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026", images: ["smash_or_pass/Alice_DFK/AliceDFK GERVtuber🏳️‍⚧️💮 New Branding 2026-1.jpg"] },
+  { name: "Allodia aka Max 💜 @Dokomi26 🐍 GerVtuber 🐍 VGen", images: ["smash_or_pass/Allodia_aka_Max/Allodia_aka_Max 💜 @Dokomi26 🐍 GerVtuber 🐍 VGen-1.jpeg"] },
+  { name: "Amunri van Thornwick🧡🩵", images: ["smash_or_pass/Amunri_/Amunri van Thornwick🧡🩵-1.jpg"] },
   { name: "Aregion", images: ["smash_or_pass/AregionOfDoom/Aregion-1.jpg"] },
   { name: "Ahr0n", images: ["smash_or_pass/AxeolotlAhr0n/Ahr0n-1.jpg"] },
   { name: "Blaic🦇GerVTuber💜DOKOMI2026", images: ["smash_or_pass/BlaicMarrow/Blaic🦇GerVTuber💜DOKOMI2026-1.jpg"] },
@@ -13,6 +15,7 @@ const characters = [
   ]},
   { name: "Mizuki   Re-Debut 2026   VArtist", images: ["smash_or_pass/BnuyMizukii/Mizuki _ Re-Debut 2026 _ VArtist-1.jpg"] },
   { name: "Cellara   GERVTuber ✧˚ ₊", images: ["smash_or_pass/CellaraVT/Cellara _ GERVTuber ✧˚ ₊-1.jpg"] },
+  { name: "CharmingMonster   Chibi Debut 2. March", images: ["smash_or_pass/CharmingM0nster/CharmingMonster _ Chibi Debut 2. March-1.jpg"] },
   { name: "Corvis   🐦‍⬛🇮🇹   Debut 28.03 2026   Dokomi 2026", images: ["smash_or_pass/CorvisAtreis/Corvis _ 🐦‍⬛🇮🇹 _ Debut 28.03 2026 _ Dokomi 2026-1.jpg"] },
   { name: "Darkisara - Lost 🐯", images: ["smash_or_pass/DarkIsara/Darkisara - Lost 🐯-1.jpg"] },
   { name: "Onkeelchen    Toni", images: [
@@ -28,6 +31,10 @@ const characters = [
   { name: "Drachy   PNG VTuber🐉DOKOMI2026", images: ["smash_or_pass/Drachy11/Drachy _ PNG_VTuber🐉DOKOMI2026-1.jpg"] },
   { name: "🪐Shiny Moon  Bundroid Vtuber", images: ["smash_or_pass/Emilia98299945/🪐Shiny Moon__Bundroid Vtuber-1.jpg"] },
   { name: "Fenari", images: ["smash_or_pass/Fenari/Fenari-1.png"] },
+  { name: "Fenari👁️", images: [
+    "smash_or_pass/FenariMori/Fenari👁️-1.jpg",
+    "smash_or_pass/FenariMori/Fenari👁️-2.jpg"
+  ]},
   { name: "Frau Ente I Mex 2026♡", images: [
     "smash_or_pass/Frau_Ente_VT/Frau_Ente I Mex 2026♡-1.jpg",
     "smash_or_pass/Frau_Ente_VT/Frau_Ente I Mex 2026♡-2.jpg"
@@ -39,6 +46,10 @@ const characters = [
   ]},
   { name: "Greph Xordero", images: ["smash_or_pass/GrephXordero/Greph Xordero-1.jpeg"] },
   { name: "Haunty 🖤🌸 DoKomi 2026", images: ["smash_or_pass/HauntingHana/Haunty 🖤🌸 DoKomi 2026-1.jpg"] },
+  { name: "Himechii 🦋   04.04. JUBILÄUM   GerVTuber", images: [
+    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-1.jpg",
+    "smash_or_pass/HimechiiVT/Himechii 🦋 _ 04.04. JUBILÄUM _ GerVTuber-2.jpg"
+  ]},
   { name: "Hoshizuki 🦊⛩️   🏳️‍⚧️ (Un-) Heilige Allianz", images: ["smash_or_pass/HoshizukiVT/Hoshizuki 🦊⛩️ _ 🏳️‍⚧️ (Un-) Heilige Allianz-1.jpg"] },
   { name: "Ignitris - Feuerbär-Geist", images: [
     "smash_or_pass/IgnitrisVt/Ignitris - Feuerbär-Geist-1.jpg",
@@ -113,6 +124,10 @@ const characters = [
     "smash_or_pass/NaumySouls/Naumy _ Fangs in the dark-2.jpg"
   ]},
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
+  { name: "Noctus | DER Squad |✨Dokomi 2026✨", images: [
+    "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-1.jpeg",
+    "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-2.jpeg"
+  ]},
   { name: "Okami der große Böse Wolf | Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf | Ger VTuber-1.jpg"] },
   { name: "Pantero Reborn 🖤🐾🌿   GerVTuber   🇩🇪", images: ["smash_or_pass/PanteroReborn/Pantero Reborn 🖤🐾🌿 _ GerVTuber _ 🇩🇪-1.jpg"] },
   { name: "Lucius Pavonum🦚 @DOKOMI", images: [
@@ -213,6 +228,7 @@ const characters = [
   { name: "𓄼Azuriel↝   Couch-Dämon", images: ["smash_or_pass/einAzuriel/𓄼Azuriel↝ _ Couch-Dämon-1.jpg"] },
   { name: "Mau⭐   GerVTuber", images: ["smash_or_pass/einmau/Mau⭐__ GerVTuber-1.jpg"] },
   { name: "Elliemirellie", images: ["smash_or_pass/elliemirellie/Elliemirellie-1.jpg"] },
+  { name: "Hakujou @Dokomi2026", images: ["smash_or_pass/hakujou_vtuber/Hakujou @Dokomi2026-1.jpeg"] },
   { name: "Ravora 🍓🍃", images: [
     "smash_or_pass/itsRavora/Ravora 🍓🍃-1.jpg",
     "smash_or_pass/itsRavora/Ravora 🍓🍃-2.jpg",
