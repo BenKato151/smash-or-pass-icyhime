@@ -116,11 +116,11 @@ const characters = [
   ]},
   { name: "NessaNoCho🖤💙  @DoKomi26", images: ["smash_or_pass/NessaNoCho/NessaNoCho🖤💙_ @DoKomi26-1.jpg"] },
   { name: "NezuAwoo   VTuber   Bodybuilding", images: ["smash_or_pass/NezuAwoo/NezuAwoo _ VTuber _ Bodybuilding-1.jpg"] },
-  { name: "Noctus | DER Squad |✨Dokomi 2026✨", images: [
-    "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-1.jpeg",
-    "smash_or_pass/NoctusVT/Noctus | DER Squad |✨Dokomi 2026✨-2.jpeg"
+  { name: "Noctus_DER_Squad_Dokomi_2026", images: [
+    "smash_or_pass/NoctusVT/Noctus_DER_Squad_Dokomi_2026-1.jpeg",
+    "smash_or_pass/NoctusVT/Noctus_DER_Squad_Dokomi_2026-2.jpeg"
   ]},
-  { name: "Okami der große Böse Wolf | Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf | Ger VTuber-1.jpg"] },
+  { name: "Okami der große Böse Wolf Ger VTuber", images: ["smash_or_pass/Okami_Blain/Okami der große Böse Wolf_Ger VTuber-1.jpg"] },
   { name: "Pantero Reborn 🖤🐾🌿   GerVTuber   🇩🇪", images: ["smash_or_pass/PanteroReborn/Pantero Reborn 🖤🐾🌿 _ GerVTuber _ 🇩🇪-1.jpg"] },
   { name: "Lucius Pavonum🦚 @DOKOMI", images: [
     "smash_or_pass/PfauTuberLucius/Lucius Pavonum🦚 @DOKOMI-1.jpg",
