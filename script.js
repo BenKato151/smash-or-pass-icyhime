@@ -274,6 +274,7 @@ const characters = [
   { name: "🌸Chiyo", images: ["smash_or_pass/xchiyotan/🌸Chiyo-1.jpg"] }
 ];
 
+// You can customize and translate your own end messages here!
 const endMessages = [
     'Ihr habt das Ende erreicht!',
     '(oder lade die Seite einfach neu)',
@@ -329,6 +330,7 @@ imageCounter.appendChild(nextImgBtn);
 dragContainer.parentNode.insertBefore(imageCounter, dragContainer.nextSibling);
 
 
+// If there are multiple images, it will render a dot to indicate how many images you can go through
 function renderDots(total, active) {
   dotsContainer.innerHTML = '';
   for (let i = 0; i < total; i++) {
@@ -471,6 +473,7 @@ function downloadCSV() {
   window.URL.revokeObjectURL(url);
 }
 
+// Create an overview of all the votes in a grid
 function renderOverview() {
   const container = document.getElementById('overview-grid');
   container.innerHTML = '';
@@ -581,6 +584,7 @@ dragContainer.addEventListener('mousemove', duringDrag);
 dragContainer.addEventListener('mouseup', endDrag);
 dragContainer.addEventListener('mouseleave', endDrag);
 
+// Event Listeners for switching between images
 document.addEventListener('keydown', (e) => {
   if (!currentCharacter) return;
   if (e.key === 'ArrowLeft') {
